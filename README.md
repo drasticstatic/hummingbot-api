@@ -1,3 +1,12 @@
+> **drasticstatic working copy** — Used by the [Fortuna trading system](https://github.com/drasticstatic/trading-assistant). This is an independent repo created from a local clone of [hummingbot/hummingbot-api](https://github.com/hummingbot/hummingbot-api). Upstream is tracked as a remote for voluntary comparison — changes are reviewed before applying.
+> 
+> ```bash
+> # Check for upstream updates (review before applying)
+> git fetch upstream && git log upstream/main --oneline
+> ```
+
+---
+
 # Hummingbot API
 
 A REST API for managing Hummingbot trading bots across multiple exchanges, with AI assistant integration via MCP.
